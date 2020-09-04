@@ -23,14 +23,14 @@
   
   
 
-  <meta name="author" content="Nelson Bighetti">
+  <meta name="author" content="James Patrick Henson">
 
   
   
   
     
   
-  <meta name="description" content="Professor of Artificial Intelligence">
+  <meta name="description" content="Research Assistant at Federal Reserve Bank of Atlanta">
 
   
   <link rel="alternate" hreflang="en-us" href="https://jphenson.github.io/post/">
@@ -50,7 +50,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="#0071CE">
   
 
   
@@ -61,6 +61,8 @@
   
   
     
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
@@ -80,8 +82,6 @@
       
     
 
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
     
 
     
@@ -235,6 +235,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177284364-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-177284364-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -242,12 +280,12 @@
   
 
   
-  <link rel="alternate" href="/post/index.xml" type="application/rss+xml" title="JPHenson">
+  <link rel="alternate" href="/post/index.xml" type="application/rss+xml" title="J.P. Henson">
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hud386ec7fe985715640245d441749de66_12426_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hud386ec7fe985715640245d441749de66_12426_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://jphenson.github.io/post/">
 
@@ -264,11 +302,11 @@
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="og:site_name" content="JPHenson">
+  <meta property="og:site_name" content="J.P. Henson">
   <meta property="og:url" content="https://jphenson.github.io/post/">
-  <meta property="og:title" content="Posts | JPHenson">
-  <meta property="og:description" content="Professor of Artificial Intelligence"><meta property="og:image" content="https://jphenson.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://jphenson.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content="Posts | J.P. Henson">
+  <meta property="og:description" content="Research Assistant at Federal Reserve Bank of Atlanta"><meta property="og:image" content="https://jphenson.github.io/images/icon_hud386ec7fe985715640245d441749de66_12426_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://jphenson.github.io/images/icon_hud386ec7fe985715640245d441749de66_12426_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
   
@@ -287,7 +325,7 @@
 
 
 
-  <title>Posts | JPHenson</title>
+  <title>Posts | J.P. Henson</title>
 
 </head>
 
@@ -296,8 +334,6 @@
 
   
   
-  
-    <script>window.staDarkLightChooser = true;</script>
   
   
     <script>const isSiteThemeDark = false;</script>
@@ -355,7 +391,7 @@
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">JPHenson</a>
+      <a class="navbar-brand" href="/">J.P. Henson</a>
     </div>
     
 
@@ -368,7 +404,7 @@
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">JPHenson</a>
+      <a class="navbar-brand" href="/">J.P. Henson</a>
     </div>
     
 
@@ -448,7 +484,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/#publications"><span>Research</span></a>
         </li>
 
         
@@ -512,17 +548,10 @@
             
           
           
-            
-            
-            
-              
-            
-            
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          <a class="nav-link " href="/teaching/"><span>Teaching</span></a>
         </li>
 
         
@@ -549,17 +578,10 @@
             
           
           
-            
-            
-            
-              
-            
-            
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
         </li>
 
         
@@ -578,23 +600,6 @@
       </li>
       
 
-      
-      <li class="nav-item dropdown theme-dropdown">
-        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
-          <i class="fas fa-palette" aria-hidden="true"></i>
-        </a>
-        <div class="dropdown-menu">
-          <a href="#" class="dropdown-item js-set-theme-light">
-            <span>Light</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-dark">
-            <span>Dark</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-auto">
-            <span>Automatic</span>
-          </a>
-        </div>
-      </li>
       
 
       
@@ -672,8 +677,6 @@
     
 
     
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
     
 
     
