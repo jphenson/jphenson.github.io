@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Health Economics | J.P. Henson</title>
+    <link>https://www.jphenson.me/teaching/econ-4210-fall-2018/</link>
+      <atom:link href="https://www.jphenson.me/teaching/econ-4210-fall-2018/index.xml" rel="self" type="application/rss+xml" />
+    <description>Health Economics</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.jphenson.me/images/icon_hud386ec7fe985715640245d441749de66_12426_512x512_fill_lanczos_center_2.png</url>
+      <title>Health Economics</title>
+      <link>https://www.jphenson.me/teaching/econ-4210-fall-2018/</link>
+    </image>
+    
+  </channel>
+</rss>
