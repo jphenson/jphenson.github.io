@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | J.P. Henson</title>
-    <link>https://www.jphenson.me/publication/</link>
-      <atom:link href="https://www.jphenson.me/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jphenson.github.io/publication/</link>
+      <atom:link href="https://jphenson.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 28 Oct 2019 13:52:20 -0400</lastBuildDate>
     <image>
-      <url>https://www.jphenson.me/images/icon_hud386ec7fe985715640245d441749de66_12426_512x512_fill_lanczos_center_2.png</url>
+      <url>https://jphenson.github.io/images/icon_hud386ec7fe985715640245d441749de66_12426_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
-      <link>https://www.jphenson.me/publication/</link>
+      <link>https://jphenson.github.io/publication/</link>
     </image>
     
     <item>
       <title>Getting the most from MATLAB: ditching canned routines and embracing coder</title>
-      <link>https://www.jphenson.me/publication/matlab-coder/</link>
+      <link>https://jphenson.github.io/publication/matlab-coder/</link>
       <pubDate>Mon, 28 Oct 2019 13:52:20 -0400</pubDate>
-      <guid>https://www.jphenson.me/publication/matlab-coder/</guid>
+      <guid>https://jphenson.github.io/publication/matlab-coder/</guid>
       <description></description>
     </item>
     

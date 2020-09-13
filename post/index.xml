@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | J.P. Henson</title>
-    <link>https://www.jphenson.me/post/</link>
-      <atom:link href="https://www.jphenson.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jphenson.github.io/post/</link>
+      <atom:link href="https://jphenson.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://www.jphenson.me/images/icon_hud386ec7fe985715640245d441749de66_12426_512x512_fill_lanczos_center_2.png</url>
+      <url>https://jphenson.github.io/images/icon_hud386ec7fe985715640245d441749de66_12426_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
-      <link>https://www.jphenson.me/post/</link>
+      <link>https://jphenson.github.io/post/</link>
     </image>
     
   </channel>
