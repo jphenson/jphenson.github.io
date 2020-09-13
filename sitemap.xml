@@ -3,90 +3,120 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jphenson.github.io/publication-type/2/</loc>
+    <loc>https://www.jphenson.me/teaching/econ-4210-fall-2018/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jphenson.me/courses/stata-basic/section_1/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jphenson.me/courses/stata-basic/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jphenson.me/courses/stata-basic/section_2/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jphenson.me/courses/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jphenson.me/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jphenson.me/teaching/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jphenson.me/publication-type/2/</loc>
     <lastmod>2019-10-28T13:52:20-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jphenson.github.io/authors/</loc>
+    <loc>https://www.jphenson.me/authors/</loc>
     <lastmod>2019-10-28T13:52:20-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jphenson.github.io/tag/c-/</loc>
+    <loc>https://www.jphenson.me/tag/c-/</loc>
     <lastmod>2019-10-28T13:52:20-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jphenson.github.io/publication/matlab-coder/</loc>
+    <loc>https://www.jphenson.me/publication/matlab-coder/</loc>
     <lastmod>2019-10-28T13:52:20-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jphenson.github.io/tag/incomplete-markets/</loc>
+    <loc>https://www.jphenson.me/tag/incomplete-markets/</loc>
     <lastmod>2019-10-28T13:52:20-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jphenson.github.io/</loc>
+    <loc>https://www.jphenson.me/author/james-patrick-henson/</loc>
     <lastmod>2019-10-28T13:52:20-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jphenson.github.io/author/james-patrick-henson/</loc>
+    <loc>https://www.jphenson.me/author/john-gibson/</loc>
     <lastmod>2019-10-28T13:52:20-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jphenson.github.io/author/john-gibson/</loc>
+    <loc>https://www.jphenson.me/tag/matlab/</loc>
     <lastmod>2019-10-28T13:52:20-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jphenson.github.io/tag/matlab/</loc>
+    <loc>https://www.jphenson.me/tag/matlab-coder/</loc>
     <lastmod>2019-10-28T13:52:20-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jphenson.github.io/tag/matlab-coder/</loc>
+    <loc>https://www.jphenson.me/publication_types/</loc>
     <lastmod>2019-10-28T13:52:20-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jphenson.github.io/publication_types/</loc>
+    <loc>https://www.jphenson.me/publication/</loc>
     <lastmod>2019-10-28T13:52:20-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jphenson.github.io/publication/</loc>
+    <loc>https://www.jphenson.me/tag/stationary-distribution/</loc>
     <lastmod>2019-10-28T13:52:20-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jphenson.github.io/tag/stationary-distribution/</loc>
+    <loc>https://www.jphenson.me/tags/</loc>
     <lastmod>2019-10-28T13:52:20-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jphenson.github.io/tags/</loc>
+    <loc>https://www.jphenson.me/tag/transitional-dynamics/</loc>
     <lastmod>2019-10-28T13:52:20-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jphenson.github.io/tag/transitional-dynamics/</loc>
-    <lastmod>2019-10-28T13:52:20-04:00</lastmod>
+    <loc>https://www.jphenson.me/categories/</loc>
   </url>
   
   <url>
-    <loc>https://jphenson.github.io/categories/</loc>
+    <loc>https://www.jphenson.me/post/</loc>
   </url>
   
   <url>
-    <loc>https://jphenson.github.io/post/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jphenson.github.io/talk/</loc>
+    <loc>https://www.jphenson.me/talk/</loc>
   </url>
   
 </urlset>
